@@ -1,0 +1,4 @@
+.env/
+env/
+rent_space/
+__pycache__/

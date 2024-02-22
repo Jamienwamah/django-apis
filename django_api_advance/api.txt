@@ -1,0 +1,11 @@
+    api/v1/auth/register/ 
+    api/v1/auth/accountusers/<int:pk>/
+    api/v1/auth/user-status/<str:username>/
+    api/v1/auth/admin-history/
+    api/v1/auth/announcements/
+    api/v1/auth/dva/
+    api/v1/auth/dva-history/
+    api/v1/auth/otp/
+    api/v1/auth/login/
+    api/v1/auth/bvn-debit-details/
+    api/v1/landlord/confirm/

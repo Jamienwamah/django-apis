@@ -1,0 +1,11 @@
+services:
+  - name: web
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: gunicorn myproject.wsgi --bind 0.0.0.0:$PORT
+  - name: static
+    env: static
+    buildCommand: "./build.sh"
+    # Specify the directory containing static files
+    staticDirs:
+      - staticfiles
