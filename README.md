@@ -1,1 +1,1 @@
-This is the successful development of django api, in this development, apis were used to send otp, and also access token was successfully generated for client
+This is the successful development of django api, in this development, apis were used to send otp, and also access token was successfully generated for client. Also an api was successfully integrated in the developed api inother to enahnce communication between both apis
