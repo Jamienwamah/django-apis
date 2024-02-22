@@ -13,7 +13,7 @@ def create_loan(request):
         serializer.save()
 
         # Integrate with Watu API to create the loan
-        watu_loan_api_url = 'https://api.watupay.com/v1/payment/initiate'
+        watu_loan_api_url = '#'
         watu_api_key = 'settings.SECRET_KEY'
 
         headers = {

@@ -10,7 +10,7 @@ class SupportedBankListView(APIView):
     def get(self, request):
         try:
             # Define the URL of the Watu API endpoint for supported banks
-            watu_supported_banks_url = 'https://api.watupay.com/v1/virtual-account/supported-banks/NG'  # Provide the actual URL
+            watu_supported_banks_url = '#'  # Provide the actual URL
 
             # Define the Watu API key
             watu_api_key = settings.SECRET_KEY  # Replace with your actual Watu API key
