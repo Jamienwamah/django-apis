@@ -8,7 +8,7 @@ import requests
 @api_view(['GET'])
 def get_loans(request):
     # Integration with Watu API to retrieve loan information
-    watu_api_url = 'https://api.watupay.com/v1/payment/initiate'
+    watu_api_url = '#'
     watu_api_key = 'settings.SECRET_KEY'  # Replace with your actual Watu API key
 
     headers = {

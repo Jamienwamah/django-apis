@@ -15,7 +15,7 @@ def create_virtual_account(request):
 
         try:
             # Integrate with Watu's API to get the list of supported banks
-            watu_supported_banks_url = 'https://api.watupay.com/v1/virtual-account/supported-banks/NG'
+            watu_supported_banks_url = '#'
             code_api_key = settings.SECRET_KEY
 
             headers = {
@@ -41,7 +41,7 @@ def create_virtual_account(request):
             bank_id = supported_banks[bank_id]
 
             # Integrate with Watu's API to create the virtual account using the validated data and bank ID
-            watu_create_virtual_account_url = 'https://api.watupay.com/v1/virtual-account/create'
+            watu_create_virtual_account_url = '#'
 
             watu_payload = {
                 'account_name': virtual_account.account_name,

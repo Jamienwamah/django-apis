@@ -12,7 +12,7 @@ def fund_wallet(request):
     amount = request.data.get('amount')
 
     # Integrate with Watu Wallet API
-    watu_wallet_api_url = ''
+    watu_wallet_api_url = '#'
     watu_wallet_api_key = 'settings.SECRET_KEY'
 
     headers = {
